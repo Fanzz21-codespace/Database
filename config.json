@@ -1,0 +1,65 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": "myworker"
+    },
+    "autosave": true,
+    "background": false,
+    "colors": true,
+    "randomx": {
+        "enabled": true,
+        "mode": "fast",
+        "1gb-pages": true,
+        "rdmsr": true,
+        "wrmsr": true,
+        "numa": true
+    },
+  "cpu": {
+    "enabled": true,
+    "huge-pages": true,
+    "hw-aes": true,
+    "priority": 0,
+    "asm": true,
+    "threads": null,
+    "affinity": null,
+    "yield": false
+},
+"randomx": {
+    "enabled": true,
+    "mode": "fast",
+    "1gb-pages": true,
+    "rdmsr": true,
+    "wrmsr": true,
+    "numa": true
+},
+    "opencl": {
+        "enabled": false,
+        "cache": true,
+        "loader": null,
+        "platform": "AMD"
+    },
+    "cuda": {
+        "enabled": false,
+        "loader": null
+    },
+    "donate-level": 1,
+    "log-file": null,
+    "pools": [
+        {
+            "algo": "rx/0",
+            "coin": "USDT",
+            "url": "stratum+tcp://usdt.unmineable.com:3333",
+            "user": "TGyzmwUbkuXMf7q7HQaiwGG826ag7TBTTs.myworker",
+            "pass": "x",
+            "keepalive": true,
+            "nicehash": false,
+            "enabled": true,
+            "tls": false
+        }
+    ],
+    "print-time": 10,
+    "retries": 5,
+    "retry-pause": 5,
+    "syslog": false,
+    "user-agent": null
+}
