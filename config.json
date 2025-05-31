@@ -1,0 +1,44 @@
+{
+    "autosave": true,
+    "cpu": {
+        "enabled": true,
+        "huge-pages": false,
+        "hw-aes": null,
+        "priority": 0,
+        "yield": true
+    },
+    "donate-level": 1,
+    "log-file": null,
+    "pools": [
+        {
+            "url": "pool.supportxmr.com:3333",
+            "user": "YOUR_XMR_WALLET_ADDRESS",
+            "pass": "x",
+            "keepalive": true,
+            "tls": false
+        }
+    ],
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "randomx": {
+        "1gb-pages": false,
+        "rdmsr": true,
+        "wrmsr": true,
+        "numa": false
+    },
+    "threads": [
+        {
+            "low_power_mode": 2,
+            "no_prefetch": true,
+            "affine_to_cpu": 0
+        }
+    ]
+}ni": false,
+        "tls-fingerprint": null,
+        "daemon": false,
+        "socks5": null,
+        "self-select": null,
+        "submit-to-origin": false
+    }]
+}}
